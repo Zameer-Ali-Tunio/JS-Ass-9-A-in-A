@@ -1,5 +1,5 @@
 /* <-------------------------------chapter no 1 alerts-------------------------------->
-// task no 2
+// task no 2 
 alert("error! please enter a valid password");
 // task no 3
 alert("welcome to Jsland \n happy coding"); 
@@ -1274,7 +1274,20 @@ else
 // document.write("<br>total distance in Centimeters="+C_M())
 // document.write("<br>total distance in feet="+feet())
 
-// task no 9
+// // task no 9
+// function employee(){
+// 	var time_worked, over_time, overtime_pay = 0;
+//     time_worked=+prompt("Enter the time employee worked in hr ");
+	
+// 		if (time_worked>40)
+// 		{
+// 			over_time = time_worked - 40;
+// 			overtime_pay = overtime_pay + (12 * over_time);
+// 		}
+// 	alert(" total over time pay of employee : "+overtime_pay);
+// }
+// employee()
+// task no 10
 
 /*<=================Chapter no 43 to 48 Events ====================> 
 // task no 1
@@ -1414,6 +1427,15 @@ function reSet(){
 //         student.innerHTML=''
 //     }
 
+/*<================Chapter no 53 to 57 Modal========================>
+var img=document.getElementById('1')
+img.onclick=function(){
+    var modal=document.getElementById('modal')
+    var modalimg=document.getElementById('modalimg')
+    modal.style.display = "block";
+  modalimg.src = this.src;
+}
+ */
 /*<================Chapter no 58 to 67 DOM ===================> 
 // task no 1
 // 1
